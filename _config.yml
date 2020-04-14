@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Ernest Essel-Kaitoo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/IMG-20200326-WA0004.jpg"
   bio              : "I am a vibrant and open-minded individual with a Master of Science in Statistics (May 2020) who is always excited to learn new things and to solve challenging problems using R, Python and SAS. Skilled in data storytelling."
   location         : "Flagstaff - AZ"
   email            :
