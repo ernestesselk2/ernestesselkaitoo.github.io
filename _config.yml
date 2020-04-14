@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   :  true # false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -60,7 +60,7 @@ algolia:
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  search_engine_id       : 010106404774527999100:kn8stk5mi5z
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Ernest Essel-Kaitoo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am a vibrant and open-minded individual with a Master of Science in Statistics (May 2020) who is always excited to learn new things and to solve challenging problems using R, Python and SAS. Skilled in data storytelling."
   location         : "Flagstaff - AZ"
   email            :
   linkedin         :
