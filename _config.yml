@@ -24,8 +24,8 @@ description              : "Data Science Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : /images/Annotation.png"
+logo                     : /images/Annotation.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   :  true, # false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -60,7 +60,7 @@ algolia:
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  search_engine_id       : 010106404774527999100:kn8stk5mi5z
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Ernest Essel-Kaitoo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : "/images/IMG-20200326-WA0004.jpg"
+  bio              : "I am a vibrant and open-minded individual with a Master of Science in Statistics (May 2020) who is always excited to learn new things and to solve challenging problems using R, Python and SAS. Skilled in data storytelling."
   location         : "Flagstaff - AZ"
   email            :
   linkedin         : 
@@ -280,6 +280,7 @@ defaults:
       comments: # true
       share: true
       related: true
+ defaults:
  # _pages
   - scope:
       path: ""
@@ -287,3 +288,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+ defaults:
+  # _foo
+  - scope:
+      path: ""
+      type: foo
+    values:
+      layout: single
